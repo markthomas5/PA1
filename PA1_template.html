@@ -263,10 +263,10 @@ plot(stepsperinterval[,1], stepsperinterval[,2], type=&quot;l&quot;, xlab=&quot;
 <p>Imputing missing values
 1. Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)</p>
 
-<pre><code class="r">sum(complete.cases(activity))
+<pre><code class="r">sum(is.na(activity))
 </code></pre>
 
-<pre><code>## [1] 15264
+<pre><code>## [1] 2304
 </code></pre>
 
 <ol>
